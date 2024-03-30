@@ -6,4 +6,10 @@ class Dish
     @category = category
     @chef_recommendation = false
   end
+
+  def status
+    "You have #{name} on the menu."
+  end
 end
+
+

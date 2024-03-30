@@ -41,7 +41,7 @@ class Menu
   def add_dish(name, category)
     dish = Dish.new(name, category)
     @dishes << dish
-    puts "You have #{name} on the menu."
+    puts dish.status
   end
 
   def recommend_dish
